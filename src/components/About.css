@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;600&display=swap');
+
+.about-wrapper {
+  padding: 4rem 1rem;
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+}
+
+.profile-img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 4px solid #00b894;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.4);
+}
+
+.tag-header {
+  font-family: 'Fira Code', monospace;
+  color: #00b894;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.about-content p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+    .about-wrapper {
+      padding: 2rem 1rem;
+    }
+  
+    .profile-img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .tag-header {
+      font-size: 1.5rem;
+    }
+  
+    .intro {
+      font-size: 1rem;
+    }
+  
+    .about-content p {
+      font-size: 0.95rem;
+      padding: 0 1rem;
+    }
+  }
+  

@@ -1,0 +1,19 @@
+.custom-navbar {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .navbar .nav-link {
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #00ffe5;
+    text-shadow: 0 0 5px #00ffe5;
+  }
+  

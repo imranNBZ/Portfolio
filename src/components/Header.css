@@ -1,0 +1,197 @@
+.header-section {
+    height: 100vh;
+    background: url('../a1bS48.gif') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+
+  .custom-navbar {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+  }
+
+  .tag-header {
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
+    color: white;
+    background-color: #2d3436;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+  }
+
+  /* Hamburger toggle (mobile only) */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+
+/* spacing and size tweaks */
+.nav-logo img.logo-img {
+    height: 100px;
+    width: auto;
+  }
+
+/* Link styles */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    color: #00ffe5;
+    text-shadow: 0 0 5px #00ffe5;
+  }
+
+  
+  
+  /* Dark overlay */
+  .header-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+  }
+  
+  /* Top-right navbar */
+  .custom-navbar {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    z-index: 0.1;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #00ffe5;
+    text-shadow: 0 0 5px #00ffe5;
+  }
+  
+  /* Centered text */
+  .header-center {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Fira Code', monospace;
+  }
+
+  /* Animation keyframes */
+@keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply animation with staggered delay */
+  .hero-title {
+    color: white;
+    font-weight: 700;
+    animation: fadeUp 1s ease-out forwards;
+  }
+  
+  .hero-subtitle {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.3s;
+  }
+  
+  .hero-stack {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  /* Ensure they don't animate instantly on load */
+  .hero-title,
+  .hero-subtitle,
+  .hero-stack {
+    opacity: 0;
+  }
+
+
+  .btn-resume {
+    color: white;
+    background-color: #00b894;
+    border: 2px solid #00b894;
+    padding: 0.5rem 1.25rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-resume:hover {
+    background-color: transparent;
+    color: #00b894;
+    text-shadow: 0 0 3px #00b894;
+    border-color: #00b894;
+  }
+  
+  
+  /* Responsive nav styling */
+@media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 80px;
+      right: 40px;
+      background-color: rgba(15, 15, 15, 0.95);
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+      gap: 1rem;
+      border-radius: 8px;
+      display: none;
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  
+    .nav-toggle {
+      display: block;
+    }
+  }

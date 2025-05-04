@@ -1,0 +1,38 @@
+/* Contacts.css */
+
+#contact {
+    background-color: #0f0f0f;
+    color: white;
+    padding: 4rem 1rem;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  #contact h2 {
+    color: #00b894;
+    font-family: 'Fira Code', monospace;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #contact ul {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact li {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    transition: all 0.3s ease;
+  }
+  
+  #contact a {
+    text-decoration: none;
+    color: #00cec9;
+    font-weight: 600;
+  }
+  
+  #contact a:hover {
+    color: #00e6c3;
+    text-decoration: underline;
+  }
+  

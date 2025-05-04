@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;600&display=swap');
+
+
+.tech-stack-section {
+  padding: 4rem 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.tech-stack-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.tech-stack-content {
+  flex: 1 1 55%;
+  min-width: 300px;
+}
+
+.tech-stack-image {
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.tech-stack-logo {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.15);
+}
+
+/* Optional bullet styling */
+.stack-section h4 {
+  color: #00b894;
+  font-family: 'Fira Code', monospace;
+  margin-top: 1.5rem;
+}
+
+.stack-section ul {
+  list-style: none;
+  padding-left: 0;
+  font-family: 'Fira Code', monospace;
+}
+
+.stack-section ul li::before {
+  content: "▹";
+  color: #00b894;
+  margin-right: 8px;
+}
+
+
+@media (max-width: 768px) {
+  .tech-stack-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tech-stack-content,
+  .tech-stack-image {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .tech-stack-logo {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1.5rem;
+  }
+
+  .tech-stack-section {
+    padding: 2rem 1rem;
+  }
+
+  .stack-section h4 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .stack-section ul {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .stack-section ul li {
+    margin-bottom: 0.5rem;
+  }
+}
