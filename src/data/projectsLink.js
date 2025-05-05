@@ -5,7 +5,7 @@ const projectsLink = [
     title: "Pickup Soccer App",
     image: "/screenshots/pickup_soccer.png",
     description: "A full-stack web app for finding and joining local pickup soccer games. Users can create games with a valid address, see them on a map, and RSVP in real-time.",
-    liveLink: "https://pickup-soccer-app.vercel.app",
+    liveLink: "https://soccer-pickup-frontend.onrender.com",
     frontendRepo: "https://github.com/your-username/pickup-soccer-app-frontend",
     backendRepo: "https://github.com/your-username/pickup-soccer-app-backend",
     tools: ["React", "Node.js", "Express", "PostgreSQL", "Mapbox API", "JWT Auth", "Render", ],
