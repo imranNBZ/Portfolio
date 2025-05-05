@@ -21,7 +21,7 @@ const projectsLink = [
     title: "Road Side Buddy",
     image: "/screenshots/roadsidebuddy.png",
     description: "A roadside assistance platform that lets users request services like tire change, battery jump, or emergency SOS. Admin can monitor requests in real-time.",
-    liveLink: "https://roadsidebuddy.vercel.app",
+    liveLink: "https://soccer-pickup-frontend.onrender.com",
     repo: "https://github.com/your-username/road-side-buddy",
     tools: ["Flask", "Firebase", "ClickSend SMS API", "Mapbox", "PostgreSQL", "Bootstrap"],
     features: [
