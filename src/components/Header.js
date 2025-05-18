@@ -30,9 +30,9 @@ function Header() {
 
       {/* Hero */}
       <div className="header-center text-center">
-        <h1 className="hero-title">Hi, I’m Imran <span role="img" aria-label="waving hand">👋</span></h1>
-        <p className="hero-subtitle">Full-Stack Software Engineer</p>
-        <p className="hero-stack">React • Node.js • PostgreSQL • Firebase</p>
+        <h1 className="hero-title">Hi, I’m Imran</h1>
+        <p className="hero-subtitle">Front-End Developer</p>
+        <p className="hero-stack">React • Tailwind • PostgreSQL • JavaScripts</p>
         <p>
           <a
             href="/Imran_Nabizada_-_ (1).pdf"

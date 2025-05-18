@@ -14,8 +14,7 @@ function About() {
       <div className="about-content mt-4">
         <h2 className="tag-header">&lt;About Me /&gt;</h2>
         <p className="intro">
-          I'm a full-stack software engineer with a passion for crafting clean, functional, and user-friendly web apps.
-        </p>
+        I'm a front-end developer with a passion for crafting clean, responsive, and user-friendly web applications. I specialize in building modern interfaces using React, JavaScript, HTML, and CSS, and have experience working with tools like Tailwind CSS, Bootstrap, React Router, and Axios. I also integrate frontend apps with Firebase for authentication and real-time features, and I'm comfortable using version control with Git and GitHub.        </p>
         <p>
           I enjoy building both the frontend and backend, working with React, Node.js, Flask, and PostgreSQL.
           My background in healthcare has sharpened my communication, organization, and problem-solving — and I apply those skills to code every day.
