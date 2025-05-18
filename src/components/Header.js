@@ -35,7 +35,7 @@ function Header() {
         <p className="hero-stack">React • Node.js • PostgreSQL • Firebase</p>
         <p>
           <a
-            href="/Imran_Nabizada_Resume_OnePage.pdf"
+            href="/Imran_Nabizada_-_ (1).pdf"
             download
             className="btn btn-resume mt-4"
           >
