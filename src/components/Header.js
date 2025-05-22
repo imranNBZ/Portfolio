@@ -35,7 +35,7 @@ function Header() {
         <p className="hero-stack">React • Tailwind • PostgreSQL • JavaScripts</p>
         <p>
           <a
-            href="/Imran_Nabizada_-_ (1).pdf"
+            href="/Imran_Nabizada_-_ (2).pdf"
             download
             className="btn btn-resume mt-4"
           >
